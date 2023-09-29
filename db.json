@@ -1,14 +1,30 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "activities": [
+    {
+      "average_heartrate": 90,
+      "distance": 5000,
+      "id": 111,
+      "moving_time": 1000,
+      "start_date": "2023-09-29T07:00:07Z",
+      "start_date_local": "2023-09-29T07:00:07Z",
+      "type": "Run",
+    },
+    {
+      "average_heartrate": 100,
+      "distance": 10000,
+      "id": 222,
+      "moving_time": 1000,
+      "start_date": "2023-09-29T07:00:07Z",
+      "start_date_local": "2023-09-29T07:00:07Z",
+      "type": "Run",
+    },
+    {
+      "distance": 15000,
+      "id": 333,
+      "moving_time": 1000,
+      "start_date": "2023-09-29T07:00:07Z",
+      "start_date_local": "2023-09-29T07:00:07Z",
+      "type": "Run",
+    },
+  ]
 }
